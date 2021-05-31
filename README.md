@@ -1,16 +1,7 @@
-# freefire_shop_demo
+# CodaShop FreeFire Demo
 
-A new Flutter project.
+Flutter made fully responsive app for android,iOS and Web.
+Inspired from CodaShop freefire panel: https://www.codashop.com/bd/free-fire
 
-## Getting Started
+![MockUp](https://i.ibb.co/wKM1S52/mockup.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
