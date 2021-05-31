@@ -1,0 +1,60 @@
+name: codashop_freefire
+description: Flutter made webpage focusing fully on responsive layout. Inspired by one of the most popular online shop for gamers Codashop.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #UI/UX
+  rflutter_alert: ^2.0.2
+  flutter_spinkit: ^5.0.0
+
+  #utilities
+  get: ^4.1.4
+  flutter_launcher_icons: ^0.9.0
+  intl: ^0.17.0
+  flutter_dotenv: ^4.0.0-nullsafety.1
+  url_strategy: ^0.2.0
+  rename: ^1.3.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "asset/favicon.png"
+  # image_path_android: "asset/favicon.png"
+  # image_path_ios: "asset/favicon.png"
+  # adaptive_icon_background: '#ffffff'
+  # adaptive_icon_foreground: 'assets/favicon.png'
+  fill: true
+  # remove_alpha_ios: true
+  #flutter pub get
+  #flutter pub run flutter_launcher_icons:main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - asset/
+
+  fonts:
+    - family: Helvetica
+      fonts:
+        - asset: asset/fonts/Helvetica.ttf
+    - family: R
+      fonts:
+        - asset: asset/fonts/Lato-Regular.ttf
+
+
